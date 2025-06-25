@@ -50,7 +50,6 @@ public class DataLaptop extends javax.swing.JFrame {
         tableOutput = new javax.swing.JTable();
         jDateChooser1 = new com.toedter.calendar.JDateChooser();
         textHargaSewa1 = new javax.swing.JTextField();
-        LabelHargaSewa1 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -171,10 +170,6 @@ public class DataLaptop extends javax.swing.JFrame {
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 370, 600, 240));
         getContentPane().add(jDateChooser1, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 250, 299, -1));
         getContentPane().add(textHargaSewa1, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 250, 299, -1));
-
-        LabelHargaSewa1.setForeground(new java.awt.Color(255, 255, 255));
-        LabelHargaSewa1.setText("Harga Sewa");
-        getContentPane().add(LabelHargaSewa1, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 250, 82, -1));
 
         jPanel1.setBackground(new java.awt.Color(153, 153, 153));
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1110, 740));
@@ -429,7 +424,6 @@ public class DataLaptop extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JComboBox<String> DropDown;
-    private javax.swing.JLabel LabelHargaSewa1;
     private javax.swing.JLabel LabelHargaSewa2;
     private javax.swing.JLabel LabelHargaSewa3;
     private javax.swing.JLabel LabelTahunProduksi;
